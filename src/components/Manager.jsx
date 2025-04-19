@@ -16,6 +16,7 @@ const Manager = () => {
       theme: "dark",
       transition: Bounce,
     });
+    
     navigator.clipboard.writeText(text);
   };
   const getPasswords = async () => {
